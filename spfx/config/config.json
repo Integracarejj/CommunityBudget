@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "community-budgets-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/communityBudgets/CommunityBudgetsWebPart.js",
+          "manifest": "./src/webparts/communityBudgets/CommunityBudgetsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CommunityBudgetsWebPartStrings": "lib/webparts/communityBudgets/loc/{locale}.js"
+  }
+}
